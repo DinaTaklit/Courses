@@ -27,7 +27,13 @@ ES6 introduces 2 new ways to create variables. They do not allow hoisting. The b
     ```
     const API_URL = "https://google.com";
     ```
-
+## 2. Template String 
+It is a string that allow embedding expression inside it. To create a template string you should use back tick instead sigle or double quotes. The expressions are ambedded by wrapping them inside `${}`
+for ex: 
+```
+const greeting = `Hello ${name}`
+const gretingf = `Hello ${fullName()}`
+``` 
 
 
 ## Credits 
