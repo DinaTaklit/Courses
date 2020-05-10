@@ -34,7 +34,28 @@ for ex:
 const greeting = `Hello ${name}`
 const gretingf = `Hello ${fullName()}`
 ``` 
-
+## 3.Arrow Function 
+ES6 gives a new syntax for defining functions using fat arrow. Arrow function bring a lot of clarity & code reduction. 
+Syntax:
+``` 
+function greetings(name){
+    return('Welcome' + name);
+}
+// becomes
+const greetings = (name) => {
+    retun(`Welcome ${name}`)
+}
+``` 
+- If we have only one variable we can remove the paretheses 
+```
+const greetings = name => {
+       retun(`Welcome ${name}`)
+}
+```
+- if we have one statment we can remove the curly braces and no need to return statment 
+```
+const greetings = name => `Welcome ${name}`
+```
 
 ## Credits 
 All credits goes for this very nice course about ES6: https://www.edyoda.com/course/1500.
