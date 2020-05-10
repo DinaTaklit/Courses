@@ -56,6 +56,17 @@ const greetings = name => {
 ```
 const greetings = name => `Welcome ${name}`
 ```
+## Rest Operator 
+It is represented by triple dots `...` 
+```
+const nSum = (...args) => console.log(args);
+nSum(1,2,3,4,5)
+```
+```
+const nSum = (num1, num2, ...args) => {...}
+nSum(1,2,3,4,5) // the first 02 args will be passed to num1, num2 the others to args
+```
+
 
 ## Credits 
 All credits goes for this very nice course about ES6: https://www.edyoda.com/course/1500.
